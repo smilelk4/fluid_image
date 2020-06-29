@@ -3,8 +3,6 @@ const previews = document.querySelectorAll('.gallery img');
 const original = document.querySelector('.full-img');
 const imgText = document.querySelector('.caption');
 
-console.log(document.querySelectorAll('.gallery img'));
-
 previews.forEach(preview => {
     preview.addEventListener('click', () => {
         modal.classList.add('open');
